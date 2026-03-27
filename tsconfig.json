@@ -12,7 +12,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "lib": ["DOM", "DOM.Iterable", "ES2020"],
-    "baseUrl": ".",
+    "baseUrl": "./umsat-labs/",
     "paths": {
       "@site/*": ["./*"],
       "@docusaurus/*": ["./node_modules/@docusaurus/*"]

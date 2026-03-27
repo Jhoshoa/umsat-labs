@@ -83,7 +83,7 @@ function HeroSection() {
           <Link className={styles.ctaButton} to="/docs/cansat/">
             Explore Projects
           </Link>
-          <Link className={styles.ctaButtonSecondary} to="https://github.com/josoe">
+          <Link className={styles.ctaButtonSecondary} to="https://github.com/Jhoshoa">
             GitHub
           </Link>
         </div>

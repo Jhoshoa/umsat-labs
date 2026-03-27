@@ -35,7 +35,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/josoe/umsat-labs/tree/main/',
+          editUrl: 'https://github.com/Jhoshoa/umsat-labs/tree/main/',
           remarkPlugins: [remarkSimplePlantuml],
         },
         blog: false,
@@ -72,7 +72,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://github.com/josoe',
+          href: 'https://github.com/Jhoshoa',
           label: 'GitHub',
           position: 'right',
         },
@@ -91,7 +91,7 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            { label: 'GitHub', href: 'https://github.com/josoe' },
+            { label: 'GitHub', href: 'https://github.com/Jhoshoa' },
           ],
         },
       ],
