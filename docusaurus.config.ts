@@ -16,10 +16,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://josoe.github.io',
-  baseUrl: '/team-projects-etn/',
+  baseUrl: '/umsat-labs/',
 
   organizationName: 'josoe',
-  projectName: 'team-projects-etn',
+  projectName: 'umsat-labs',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -35,7 +35,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/josoe/team-projects-etn/tree/main/',
+          editUrl: 'https://github.com/josoe/umsat-labs/tree/main/',
           remarkPlugins: [remarkSimplePlantuml],
         },
         blog: false,
