@@ -15,7 +15,7 @@ const config: Config = {
   tagline: 'Building the future with robotics, electronics, and software',
   favicon: 'img/favicon.ico',
 
-  url: 'https://josoe.github.io',
+  url: 'https://jhoshoa.github.io',
   baseUrl: '/umsat-labs/',
 
   organizationName: 'josoe',

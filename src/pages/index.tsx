@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
 
@@ -38,10 +39,12 @@ const ProjectList: ProjectCardProps[] = projectsData.projects.map(project => ({
 }));
 
 function ProjectCard({title, image, description, link, tags}: ProjectCardProps) {
+  const imageUrl = useBaseUrl(image);
+
   return (
     <div className={styles.projectCard}>
       <div className={styles.projectImageContainer}>
-        <img src={image} alt={title} className={styles.projectImage} />
+        <img src={imageUrl} alt={title} className={styles.projectImage} />
         <div className={styles.projectOverlay}>
           <Link to={link} className={styles.projectLink}>
             View Documentation
