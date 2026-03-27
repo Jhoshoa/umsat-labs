@@ -1,0 +1,113 @@
+{
+  "projects": [
+    {
+      "id": "cansat",
+      "title": "CanSat Mission",
+      "description": "Satellite-in-a-can competition project with telemetry and data analysis.",
+      "image": "/img/projects/cansat.png",
+      "link": "/docs/cansat/",
+      "tags": ["Embedded", "C++", "Python", "RF"],
+      "sidebar": "cansatSidebar",
+      "sections": [
+        {
+          "id": "mission-design",
+          "label": "Mission Design",
+          "folder": "01-mission-design"
+        },
+        {
+          "id": "hardware",
+          "label": "Hardware",
+          "folder": "02-hardware"
+        },
+        {
+          "id": "software",
+          "label": "Software",
+          "folder": "03-software"
+        },
+        {
+          "id": "communication",
+          "label": "Communication",
+          "folder": "04-communication"
+        },
+        {
+          "id": "testing",
+          "label": "Testing",
+          "folder": "05-testing"
+        }
+      ]
+    },
+    {
+      "id": "lora-communication",
+      "title": "LoRa Communication",
+      "description": "Long-range IoT communication system for remote sensor networks.",
+      "image": "/img/projects/lora.png",
+      "link": "/docs/lora-communication/",
+      "tags": ["IoT", "LoRaWAN", "Arduino", "ESP32"],
+      "sidebar": "loraSidebar",
+      "sections": [
+        {
+          "id": "fundamentals",
+          "label": "Fundamentals",
+          "folder": "01-fundamentals"
+        },
+        {
+          "id": "hardware-setup",
+          "label": "Hardware Setup",
+          "folder": "02-hardware-setup"
+        },
+        {
+          "id": "software",
+          "label": "Software",
+          "folder": "03-software"
+        },
+        {
+          "id": "projects",
+          "label": "Projects",
+          "folder": "04-projects"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps Infrastructure",
+      "description": "CI/CD pipelines, containerization, and infrastructure as code.",
+      "image": "/img/projects/devops.png",
+      "link": "/docs/devops/",
+      "tags": ["Docker", "K8s", "GitHub Actions", "Terraform"],
+      "sidebar": "devopsSidebar",
+      "sections": [
+        {
+          "id": "containerization",
+          "label": "Containerization",
+          "folder": "01-containerization"
+        },
+        {
+          "id": "cicd",
+          "label": "CI/CD",
+          "folder": "02-cicd"
+        },
+        {
+          "id": "monitoring",
+          "label": "Monitoring",
+          "folder": "03-monitoring"
+        }
+      ]
+    }
+  ],
+  "resources": {
+    "id": "resources",
+    "title": "Resources",
+    "link": "/docs/resources/",
+    "sidebar": "resourcesSidebar"
+  },
+  "technologies": [
+    { "name": "C/C++", "icon": "cpp" },
+    { "name": "Python", "icon": "python" },
+    { "name": "Arduino", "icon": "arduino" },
+    { "name": "ESP32", "icon": "esp32" },
+    { "name": "Docker", "icon": "docker" },
+    { "name": "Kubernetes", "icon": "kubernetes" },
+    { "name": "React", "icon": "react" },
+    { "name": "PCB Design", "icon": "pcb" }
+  ]
+}
