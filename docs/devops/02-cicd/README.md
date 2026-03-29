@@ -1,5 +1,6 @@
 ---
 displayed_sidebar: devopsSidebar
+sidebar_position: 0
 ---
 
 # CI/CD

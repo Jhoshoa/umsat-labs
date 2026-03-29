@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Pipeline Design
 
 > CI/CD pipeline patterns and best practices.

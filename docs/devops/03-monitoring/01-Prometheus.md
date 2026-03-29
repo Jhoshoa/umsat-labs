@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Prometheus
 
 > Open-source metrics collection and alerting.

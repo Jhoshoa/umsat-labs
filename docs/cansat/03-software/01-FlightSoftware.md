@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Flight Software
 
 > ESP32 firmware for the CanSat flight computer.

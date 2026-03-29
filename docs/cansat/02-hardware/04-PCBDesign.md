@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # PCB Design
 
 > Custom circuit board design for the CanSat.

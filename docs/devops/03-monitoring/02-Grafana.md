@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Grafana
 
 > Visualization and dashboarding platform.

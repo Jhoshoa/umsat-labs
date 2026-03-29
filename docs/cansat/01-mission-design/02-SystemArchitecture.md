@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # System Architecture
 
 > Overall system design and component selection.

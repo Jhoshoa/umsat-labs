@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Point-to-Point Communication
 
 > Building a simple two-node LoRa link.

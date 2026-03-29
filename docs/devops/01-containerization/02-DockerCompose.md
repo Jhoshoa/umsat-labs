@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Docker Compose
 
 > Multi-container application orchestration.

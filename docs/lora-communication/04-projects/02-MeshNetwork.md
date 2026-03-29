@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Mesh Network
 
 > Multi-hop LoRa network for extended coverage.

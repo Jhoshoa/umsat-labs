@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # LoRa Basics
 
 > Understanding LoRa modulation and physical layer.

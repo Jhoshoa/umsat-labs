@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Sensors
 
 > Sensor selection and integration guide.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Library Setup
 
 > Installing and configuring LoRa libraries.

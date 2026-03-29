@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Antenna Design
 
 > Antenna types and construction for LoRa.

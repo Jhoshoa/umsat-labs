@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Data Processing
 
 > Post-flight telemetry analysis and visualization.

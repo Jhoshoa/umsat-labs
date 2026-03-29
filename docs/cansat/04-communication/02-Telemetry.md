@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Telemetry
 
 > Data packet format and transmission protocol.

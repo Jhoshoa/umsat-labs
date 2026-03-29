@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Microcontroller
 
 > ESP32 setup and configuration for the CanSat flight computer.

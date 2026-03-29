@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # LoRaWAN
 
 > Network protocol for LoRa-based IoT networks.

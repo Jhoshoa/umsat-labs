@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Frequency Bands
 
 > Regional regulations and ISM bands for LoRa.

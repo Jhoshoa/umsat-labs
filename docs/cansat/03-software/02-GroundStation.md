@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Ground Station
 
 > Real-time data reception and visualization.

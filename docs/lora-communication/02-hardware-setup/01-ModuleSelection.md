@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Module Selection
 
 > Choosing the right LoRa module for your project.

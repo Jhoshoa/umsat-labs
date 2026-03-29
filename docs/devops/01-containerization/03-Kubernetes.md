@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Kubernetes
 
 > Container orchestration at scale.

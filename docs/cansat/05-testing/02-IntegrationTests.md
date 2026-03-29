@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Integration Tests
 
 > System-level testing procedures.

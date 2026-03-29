@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Power System
 
 > Battery selection and power management.

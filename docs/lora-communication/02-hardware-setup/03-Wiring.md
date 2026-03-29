@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Wiring
 
 > Connection diagrams and circuits for LoRa modules.

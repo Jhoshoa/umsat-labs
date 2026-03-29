@@ -1,5 +1,6 @@
 ---
 displayed_sidebar: loraSidebar
+sidebar_position: 0
 ---
 
 # Fundamentals

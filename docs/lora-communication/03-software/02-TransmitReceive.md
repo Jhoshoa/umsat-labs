@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Transmit/Receive
 
 > Basic LoRa communication examples.

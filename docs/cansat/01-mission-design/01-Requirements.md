@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Mission Requirements
 
 > Defining the requirements and constraints for the CanSat mission.

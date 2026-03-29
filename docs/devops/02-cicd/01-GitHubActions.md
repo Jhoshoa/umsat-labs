@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # GitHub Actions
 
 > Automated workflows directly in GitHub.
