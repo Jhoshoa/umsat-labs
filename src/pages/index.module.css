@@ -336,6 +336,90 @@
 }
 
 /* ============================================
+   PROJECTS CAROUSEL
+   ============================================ */
+.carouselContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  position: relative;
+}
+
+.projectsSwiper {
+  padding-bottom: 50px !important;
+}
+
+/* Navigation arrows */
+.projectsSwiper :global(.swiper-button-next),
+.projectsSwiper :global(.swiper-button-prev) {
+  color: var(--ifm-color-primary);
+  background: var(--bg-card);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.projectsSwiper :global(.swiper-button-next):hover,
+.projectsSwiper :global(.swiper-button-prev):hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+  transform: scale(1.1);
+}
+
+.projectsSwiper :global(.swiper-button-next)::after,
+.projectsSwiper :global(.swiper-button-prev)::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.projectsSwiper :global(.swiper-button-prev) {
+  left: 0;
+}
+
+.projectsSwiper :global(.swiper-button-next) {
+  right: 0;
+}
+
+/* Pagination dots */
+.projectsSwiper :global(.swiper-pagination-bullet) {
+  width: 10px;
+  height: 10px;
+  background: var(--border-color);
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+
+.projectsSwiper :global(.swiper-pagination-bullet-active) {
+  background: var(--ifm-color-primary);
+  transform: scale(1.2);
+}
+
+/* Ensure cards fill the slide */
+.projectsSwiper :global(.swiper-slide) {
+  height: auto;
+}
+
+.projectsSwiper :global(.swiper-slide) .projectCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectsSwiper :global(.swiper-slide) .projectContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectsSwiper :global(.swiper-slide) .projectDescription {
+  flex: 1;
+}
+
+/* ============================================
    MAIN CONTENT
    ============================================ */
 .mainContent {
@@ -365,5 +449,15 @@
 
   .sectionTitle {
     font-size: 1.5rem;
+  }
+
+  /* Carousel responsive */
+  .carouselContainer {
+    padding: 0 15px;
+  }
+
+  .projectsSwiper :global(.swiper-button-next),
+  .projectsSwiper :global(.swiper-button-prev) {
+    display: none;
   }
 }
